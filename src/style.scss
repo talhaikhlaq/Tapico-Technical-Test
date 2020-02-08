@@ -1,1 +1,28 @@
+* {
+  box-sizing: border-box;
+}
 
+.titleHeader {
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form.control {
+  display: flex;
+  justify-content: center;
+}
+
+input.input {
+  width: 50vw;
+  margin-right: 15px;
+}
+
+
+.card {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-bottom: 20px;
+}
